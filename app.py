@@ -3,6 +3,7 @@ import json
 from flask import Flask, render_template_string, request
 from api import get_flight_data_fixed
 
+
 with open("data.json", "r") as f:
     redemption_chart = json.load(f)
 
@@ -261,4 +262,6 @@ def index():
     return render_template_string(HTML, result=None, error=None)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
