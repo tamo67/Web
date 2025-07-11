@@ -1,0 +1,68 @@
+{
+    "TK": {
+        "JFK-HEL": {
+            "ECONOMY": 40000
+        },
+        "SYD-BKK": {
+            "ECONOMY": 35000
+        },
+        "IST-YYZ": {
+            "ECONOMY": 45000
+        }
+    },
+    "LH": {
+        "JFK-HEL": {
+            "ECONOMY": 42000
+        },
+        "SYD-BKK": {
+            "ECONOMY": 37000
+        },
+        "IST-YYZ": {
+            "ECONOMY": 46000
+        }
+    },
+    "AA": {
+        "JFK-HEL": {
+            "ECONOMY": 45000
+        },
+        "SYD-BKK": {
+            "ECONOMY": 40000
+        },
+        "IST-YYZ": {
+            "ECONOMY": 50000
+        }
+    },
+    "BA": {
+        "JFK-HEL": {
+            "ECONOMY": 43000
+        },
+        "SYD-BKK": {
+            "ECONOMY": 38000
+        },
+        "IST-YYZ": {
+            "ECONOMY": 47000
+        }
+    },
+    "SQ": {
+        "JFK-HEL": {
+            "ECONOMY": 44000
+        },
+        "SYD-BKK": {
+            "ECONOMY": 39000
+        },
+        "IST-YYZ": {
+            "ECONOMY": 48000
+        }
+    },
+    "TG": {
+        "JFK-HEL": {
+            "ECONOMY": 41000
+        },
+        "SYD-BKK": {
+            "ECONOMY": 36000
+        },
+        "IST-YYZ": {
+            "ECONOMY": 47000
+        }
+    }
+}
