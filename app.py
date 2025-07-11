@@ -3,8 +3,9 @@ import json
 from flask import Flask, render_template_string, request
 from api import get_flight_data_fixed
 
-with open(os.path.join("Week3", "data.json"), "r") as f:
+with open("data.json", "r") as f:
     redemption_chart = json.load(f)
+
 
 allowed_airlines = {
     "AA": "American Airlines",
